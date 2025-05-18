@@ -33,7 +33,7 @@ function Contact() {
       setFormData({ name: '', email: '', message: '' });
       e.target.reset();
     } else {
-      setStatus(data.message);
+      setStatus("Sorry! Some eror occurred: please send the message again");
     }
 
     setTimeout(() => setStatus(''), 5000);
