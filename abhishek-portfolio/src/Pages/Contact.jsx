@@ -33,6 +33,7 @@ function Contact() {
       setFormData({ name: '', email: '', message: '' });
       e.target.reset();
     } else {
+      console.log("Error", data);
       setStatus(data.message);
     }
 
