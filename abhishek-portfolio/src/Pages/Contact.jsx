@@ -14,11 +14,28 @@ function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setStatus('Message sent successfully! I’ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    setStatus("Sending Your Message...")
+    const formData = new FormData(e.target);
+
+    formData.append("access_key", import.meta.env.VITE_FORM_API);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setStatus("Message sent successfully! I’ll get back to you soon.");
+      setFormData({ name: '', email: '', message: '' });
+      e.target.reset();
+    } else {
+      setStatus(data.message);
+    }
+
     setTimeout(() => setStatus(''), 5000);
   };
 
