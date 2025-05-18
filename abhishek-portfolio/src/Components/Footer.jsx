@@ -6,50 +6,42 @@ function Footer() {
     <footer className="bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white py-2">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col items-center space-y-3">
         {/* Social Links */}
-        <div className="flex space-x-10">
+        <div className="flex space-x-10 text-sm sm:text-base">
           <motion.a
-            href="https://github.com/abhishek-gupta-24" // Update with your GitHub
+            href="https://github.com/abhishek-gupta-24"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.1 }}
             className="text-gray-300 hover:text-cyan-400 transition-colors"
           >
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.14 6.84 9.49.5.09.68-.22.68-.48v-1.69c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.12-1.47-1.12-1.47-.91-.62.07-.61.07-.61 1.01.07 1.54 1.04 1.54 1.04.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.75c0 .26.18.57.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z" />
-            </svg>
+            GitHub
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/abhishek-gupta-5b2307242/" // Update with your LinkedIn
+            href="https://www.linkedin.com/in/abhishek-gupta-5b2307242/"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.1 }}
             className="text-gray-300 hover:text-cyan-400 transition-colors"
           >
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9.01h3.41v1.56h.05c.48-.91 1.65-1.87 3.39-1.87 3.62 0 4.29 2.39 4.29 5.49v6.26zM5.34 7.45c-1.14 0-2.06-.93-2.06-2.07 0-1.14.92-2.07 2.06-2.07 1.14 0 2.06.93 2.06 2.07 0 1.14-.92 2.07-2.06 2.07zm1.78 13h-3.56V9.01h3.56v11.44zM22 0H2C.9 0 0 .9 0 2v20c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" />
-            </svg>
+            LinkedIn
           </motion.a>
           <motion.a
-            href="https://leetcode.com/u/abhishek399/" // Update with your LeetCode
+            href="https://leetcode.com/u/abhishek399/"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.1 }}
             className="text-gray-300 hover:text-cyan-400 transition-colors"
           >
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M22.29 10.21c-.53-.18-1.08-.27-1.63-.27-1.27 0-2.43.45-3.34 1.19l-3.81 3.14-2.53-2.29c-.95-.86-2.19-1.29-3.43-1.29-1.24 0-2.48.43-3.43 1.29l-2.53 2.29-3.81-3.14C2.43 9.66 1.27 9.21 0 9.21c-.55 0-1.1.09-1.63.27l.71 2.05c.36-.12.73-.18 1.1-.18.91 0 1.74.32 2.39.85l3.81 3.14-2.53 2.29c-.95.86-2.19 1.29-3.43 1.29-1.24 0-2.48-.43-3.43-1.29l-.71 2.05c.53.18 1.08.27 1.63.27 1.27 0 2.43-.45 3.34-1.19l3.81-3.14 2.53 2.29c.95.86 2.19 1.29 3.43 1.29 1.24 0 2.48-.43 3.43-1.29l3.81-3.14c.91-.74 1.74-1.19 2.39-.85.37 0 .74.06 1.1.18l.71-2.05z" />
-            </svg>
+            LeetCode
           </motion.a>
           <motion.a
-            href="https://www.instagram.com/abhiii_gupta_24/" // Update with your Instagram
+            href="https://www.instagram.com/abhiii_gupta_24/"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.1 }}
             className="text-gray-300 hover:text-cyan-400 transition-colors"
           >
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2.16c3.21 0 3.58.01 4.84.07 1.17.06 1.81.25 2.23.42.56.22.96.49 1.38.91.42.42.69.82.91 1.38.17.42.36 1.06.42 2.23.06 1.26.07 1.63.07 4.84s-.01 3.58-.07 4.84c-.06 1.17-.25 1.81-.42 2.23-.22.56-.49.96-.91 1.38-.42.42-.82.69-1.38.91-.42.17-1.06.36-2.23.42-1.26.06-1.63.07-4.84.07s-3.58-.01-4.84-.07c-1.17-.06-1.81-.25-2.23-.42-.56-.22-.96-.49-1.38-.91-.42-.42-.69-.82-.91-1.38-.17-.42-.36-1.06-.42-2.23-.06-1.26-.07-1.63-.07-4.84s.01-3.58.07-4.84c.06-1.17.25-1.81.42-2.23.22-.56.49-.96.91-1.38.42-.42.82-.69 1.38-.91.42-.17 1.06-.36 2.23-.42 1.26-.06 1.63-.07 4.84-.07zm0-2.16C8.74 0 8.33.01 7.05.07 5.78.13 4.66.34 3.71.71c-.98.39-1.81.91-2.64 1.74S-.04 4.26.34 5.24c.37.95.58 2.07.64 3.34.06 1.28.07 1.69.07 4.95s-.01 3.67-.07 4.95c-.06 1.28-.27 2.39-.64 3.34-.39.98-.91 1.81-1.74 2.64S2.73 22.66 3.71 22.29c.95-.37 2.07-.58 3.34-.64 1.28-.06 1.69-.07 4.95-.07s3.67.01 4.95.07c1.28.06 2.39.27 3.34.64.98.39 1.81.91 2.64 1.74s1.36 1.66 1.74 2.64c.37.95.58 2.07.64 3.34.06 1.28.07 1.69.07 4.95s-.01 3.67-.07 4.95c-.06 1.28-.27 2.39-.64 3.34-.39.98-.91 1.81-1.74 2.64s-1.66 1.36-2.64 1.74c-.95.37-2.07.58-3.34.64-1.28.06-1.69.07-4.95.07s-3.67-.01-4.95-.07c-1.28-.06-2.39-.27-3.34-.64-.98-.39-1.81-.91-2.64-1.74S.34 18.74-.03 17.76c-.37-.95-.58-2.07-.64-3.34C0 13.14 0 12.73 0 9.47s.01-3.67.07-4.95c.06-1.28.27-2.39.64-3.34.39-.98.91-1.81 1.74-2.64S4.26.18 5.24-.19c.95-.37 2.07-.58 3.34-.64C8.86 0 9.27 0 12 0z" />
-            </svg>
+            Instagram
           </motion.a>
         </div>
         {/* Copyright */}
