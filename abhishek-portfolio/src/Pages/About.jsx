@@ -67,7 +67,7 @@ function About() {
               >
                 <h3 className="text-xl font-bold mb-2">College</h3>
                 <p className="text-gray-300">National Institute of Technology, Silchar, Assam</p>
-                <p className="text-gray-300">2018 - 2022</p>
+                <p className="text-gray-300">2022- 2026</p>
                 <p className="text-gray-300">B.Tech in Computer Science, CGPA: 8.23</p>
               </motion.div>
             </div>
