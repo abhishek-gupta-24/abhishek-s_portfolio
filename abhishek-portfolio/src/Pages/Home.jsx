@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import Header from '../Components/Header';
-import profileImage from '../assets/react.svg';
+import profileImage from '../assets/mineImg.jpeg';
 import Footer from '../Components/Footer';
 function Home() {
   const navigate = useNavigate();
