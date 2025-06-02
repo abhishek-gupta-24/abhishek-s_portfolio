@@ -42,7 +42,13 @@ function Header() {
               Contact
             </button>
           </li>
+          <a href="https://drive.google.com/file/d/1c2__5XCF3aDUpDAMm9SMa-AAqJrSKVd0/view">
+          <button class="bg-gradient-to-r bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-4 py-0.5 rounded-xl shadow-lg hover:scale-105 hover:shadow-xl transition duration-300">
+            Resume
+          </button>
+        </a>
         </ul>
+
       </nav>
     </header>
   );
