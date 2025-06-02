@@ -13,23 +13,24 @@ function Projects() {
       github: "https://github.com/abhishek-gupta-24/TrackMyGrowth",
       live: "https://track-my-growth-frontend.vercel.app",
       },
+      {
+        title: "File Compressor",
+        description:
+          "A web-based file compression tool that allows users to upload .txt files and download compressed versions using the Huffman Coding algorithm. The project implements lossless data compression by analyzing character frequencies. It also supports decompression, allowing users to restore the original text file.",
+        tech: ["React", "TailwindCSS", "Node.js", "Express", "multer","C++"],
+        github: "https://github.com/abhishek-gupta-24/File-Compressor",
+        live: "https://file-compressor-git-main-abhishek-guptas-projects-505703e1.vercel.app/",
+      },
       
-    {
-      title: "Blog Website",
-      description:
-        "This Blog Website enables users to create, read, update, and delete (CRUD) blog posts. Users can write new posts, edit existing ones, and delete entries as needed, all through a clean and intuitive interface.",
-      tech: ["HTML", "CSS", "JavaScript", "Express","Node.js"],
-      github: "https://github.com/abhishek-gupta-24/mini_quora",
-      live: "",
-    },
-    {
-      title: "Currency Converter",
-      description:
-        "Currency Converter is a responsive web application that allows users to convert one currency to another in real-time using the latest exchange rates.This app showcases fundamental concepts of React like component structure, state management, and working with APIs",
-      tech: ["React", "TailwindCSS", "JavaScript", "API handling"],
-      github: "https://github.com/abhishek-gupta-24/mini_quora",
-      live: "",
-    },
+      {
+        title: "Blog Website",
+        description:
+          "This Blog Website enables users to create, read, update, and delete (CRUD) blog posts. Users can write new posts, edit existing ones, and delete entries as needed, all through a clean and intuitive interface.",
+        tech: ["HTML", "CSS", "JavaScript", "Express","Node.js"],
+        github: "https://github.com/abhishek-gupta-24/mini_quora",
+        live: "",
+      },
+
 
   ];
 
