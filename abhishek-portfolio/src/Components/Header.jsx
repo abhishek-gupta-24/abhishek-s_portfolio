@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <header className="w-full py-4 bg-gradient-to-br from-[#0f172a] to-[#1e293b]">
-      <nav className="max-w-5xl mx-auto flex justify-center sm:justify-between items-center px-6">
+      <nav className="max-w-5xl mx-auto flex justify-center sm:justify-around items-center px-6">
         <h1 className="hidden sm:block text-2xl font-bold text-cyan-400">Abhishek Gupta</h1>
 
         <ul className="flex space-x-6">
