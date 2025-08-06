@@ -77,7 +77,8 @@ function About() {
           <div className="w-full">
             <h2 className="text-3xl font-semibold mb-8 text-cyan-400">Skills</h2>
             <div className="flex flex-wrap justify-center gap-3">
-              {['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind CSS', 'MongoDB','SQL', 'Express', 'Data Structures','Algorithms','Operating System','Computer Networks','DBMS'].map((skill) => (
+              {['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Tailwind CSS', 'MongoDB', 'SQL', 'Express', 'C', 'C++', 'python','numpy',
+                'Data Structures', 'Algorithms', 'Operating System', 'Computer Networks', 'DBMS'].map((skill) => (
                 <motion.span
                   key={skill}
                   className="bg-cyan-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-cyan-500 transition-colors"
