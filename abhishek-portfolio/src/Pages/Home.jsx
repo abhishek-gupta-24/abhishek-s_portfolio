@@ -20,7 +20,7 @@ function Home() {
           <img
             src={profileImage}
             alt="Abhishek Gupta"
-            className="w-40 h-40 rounded-full mb-6 border-2 border-cyan-400"
+            className="w-50 h-50 rounded-full mb-6 border-2 border-cyan-400"
           />
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Hi, I'm <span className="text-cyan-400">Abhishek Gupta</span>
