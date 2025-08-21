@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import Header from '../Components/Header';
-import profileImage from '../assets/mineImg.jpeg';
+import profileImage from '../assets/mineImg2.png';
 import Footer from '../Components/Footer';
 function Home() {
   const navigate = useNavigate();
@@ -17,11 +17,15 @@ function Home() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl text-center flex flex-col items-center"
         >
-          <img
-            src={profileImage}
-            alt="Abhishek Gupta"
-            className="w-50 h-50 rounded-full mb-6 border-2 border-cyan-400"
-          />
+      <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-50 md:h-50 rounded-full overflow-hidden border-2 border-cyan-400 mb-6 mx-auto">
+        <img
+          src={profileImage}
+          alt="Abhishek Gupta"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Hi, I'm <span className="text-cyan-400">Abhishek Gupta</span>
           </h1>
